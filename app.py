@@ -5,7 +5,9 @@ import uuid
 from mistralai import Mistral
 from unstructured.partition.pdf import partition_pdf
 import nltk
-nltk.download('all')
+nltk.download('punkt')
+nltk.download('stopwords')
+
 
 
 ## Table extraction function (using unstructured package)
